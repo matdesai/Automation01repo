@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-04T18:03:48 IST" name="Default suite" finished-at="2024-08-04T18:04:23 IST" duration-ms="34830">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:automationpractice.runnerclass@5b218417]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-08-04T18:03:48 IST" name="Default test" finished-at="2024-08-04T18:04:23 IST" duration-ms="34830">
+      <class name="automationpractice.runnerclass">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:automationpractice.runnerclass@5b218417]" started-at="2024-08-04T18:03:48 IST" name="setUpClass" finished-at="2024-08-04T18:03:56 IST" duration-ms="8141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@b27b210]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:automationpractice.runnerclass@5b218417]" started-at="2024-08-04T18:03:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-04T18:04:02 IST" duration-ms="5646" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify text box"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["verify Sample Webpage for Automation Practice"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:automationpractice.runnerclass@5b218417]" started-at="2024-08-04T18:04:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-04T18:04:04 IST" duration-ms="2000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify Btn"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["verify Sample Webpage for Automation Practice"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:automationpractice.runnerclass@5b218417]" started-at="2024-08-04T18:04:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-04T18:04:09 IST" duration-ms="5423" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify Alert popup"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["verify Sample Webpage for Automation Practice"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoAlertPresentException">
+            <message>
+              <![CDATA[Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [09596214-9d87-40e1-85cb-ce255b6a4d49, getAlertText {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0.3, moz:accessibilityChecks: false, moz:buildID: 20240725162350, moz:debuggerAddress: 127.0.0.1:9850, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20556, moz:profile: C:\Users\MATIND~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:9850/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 09596214-9d87-40e1-85cb-ce255b6a4d49]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoAlertPresentException: Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [09596214-9d87-40e1-85cb-ce255b6a4d49, getAlertText {}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 128.0.3, moz:accessibilityChecks: false, moz:buildID: 20240725162350, moz:debuggerAddress: 127.0.0.1:9850, moz:geckodriverVersion: 0.34.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 20556, moz:profile: C:\Users\MATIND~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:9850/devtool..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 09596214-9d87-40e1-85cb-ce255b6a4d49
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1172)
+at pages.pom.verifyalertpupup(pom.java:73)
+at automationpractice.stepdefinationclass.user_handle_alert_popup(stepdefinationclass.java:58)
+at ✽.user handle alert popup(file:///E:/Eclips%20new%201/codes/eclipse/AutomationPractice01/src/test/resources/Automationtestingfeature/auto.feature:15)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:automationpractice.runnerclass@5b218417]" started-at="2024-08-04T18:04:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-04T18:04:17 IST" duration-ms="8170" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify text box"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["verify Sample Webpage for Automation Practice"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.apache.poi.ss.usermodel.Sheet.getRow(int)" because the return value of "org.apache.poi.ss.usermodel.Workbook.getSheet(String)" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.apache.poi.ss.usermodel.Sheet.getRow(int)" because the return value of "org.apache.poi.ss.usermodel.Workbook.getSheet(String)" is null
+at utility.util.testdata(util.java:43)
+at automationpractice.stepdefinationclass.user_cheak_cheak_text(stepdefinationclass.java:81)
+at ✽.user cheak cheak text(file:///E:/Eclips%20new%201/codes/eclipse/AutomationPractice01/src/test/resources/Automationtestingfeature/auto.feature:20)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:automationpractice.runnerclass@5b218417]" started-at="2024-08-04T18:04:17 IST" name="tearDownClass" finished-at="2024-08-04T18:04:23 IST" duration-ms="5400" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- automationpractice.runnerclass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

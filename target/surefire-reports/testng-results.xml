@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-04T18:09:25 IST" name="Suite" finished-at="2024-08-04T18:10:07 IST" duration-ms="41151">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:automationpractice.runnerclass@79e4c792]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-08-04T18:09:25 IST" name="Test" finished-at="2024-08-04T18:10:07 IST" duration-ms="41151">
+      <class name="automationpractice.runnerclass">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:automationpractice.runnerclass@79e4c792]" started-at="2024-08-04T18:09:26 IST" name="setUpClass" finished-at="2024-08-04T18:09:29 IST" duration-ms="3088" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@399ca607]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:automationpractice.runnerclass@79e4c792]" started-at="2024-08-04T18:09:29 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-04T18:09:34 IST" duration-ms="5121" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify text box"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["verify Sample Webpage for Automation Practice"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:automationpractice.runnerclass@79e4c792]" started-at="2024-08-04T18:09:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-04T18:09:36 IST" duration-ms="2029" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify Btn"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["verify Sample Webpage for Automation Practice"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:automationpractice.runnerclass@79e4c792]" started-at="2024-08-04T18:09:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-04T18:09:42 IST" duration-ms="5792" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify Alert popup"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["verify Sample Webpage for Automation Practice"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoAlertPresentException">
+            <message>
+              <![CDATA[no such alert
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af66fa74f4804d4a7decb468a6c6b6e8, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\MATIND~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55441/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af66fa74f4804d4a7decb468a6c6b6e8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoAlertPresentException: no such alert
+  (Session info: chrome=127.0.6533.89)
+Build info: version: '4.23.0', revision: '4df0a231af'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [af66fa74f4804d4a7decb468a6c6b6e8, getAlertText {}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 127.0.6533.89, chrome: {chromedriverVersion: 127.0.6533.88 (a2d0cb026721..., userDataDir: C:\Users\MATIND~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55441}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:55441/devtoo..., se:cdpVersion: 127.0.6533.89, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: af66fa74f4804d4a7decb468a6c6b6e8
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:600)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+at org.openqa.selenium.remote.RemoteWebDriver$RemoteTargetLocator.alert(RemoteWebDriver.java:1172)
+at pages.pom.verifyalertpupup(pom.java:73)
+at automationpractice.stepdefinationclass.user_handle_alert_popup(stepdefinationclass.java:58)
+at ✽.user handle alert popup(file:///E:/Eclips%20new%201/codes/eclipse/AutomationPractice01/src/test/resources/Automationtestingfeature/auto.feature:15)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoAlertPresentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:automationpractice.runnerclass@79e4c792]" started-at="2024-08-04T18:09:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-08-04T18:10:01 IST" duration-ms="19507" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["verify text box"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["verify Sample Webpage for Automation Practice"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at utility.util.testdata(util.java:43)
+at automationpractice.stepdefinationclass.user_cheak_cheak_text(stepdefinationclass.java:81)
+at ✽.user cheak cheak text(file:///E:/Eclips%20new%201/codes/eclipse/AutomationPractice01/src/test/resources/Automationtestingfeature/auto.feature:20)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:automationpractice.runnerclass@79e4c792]" started-at="2024-08-04T18:10:01 IST" name="tearDownClass" finished-at="2024-08-04T18:10:07 IST" duration-ms="5545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- automationpractice.runnerclass -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
